@@ -4,15 +4,7 @@ import { navigationLink } from "./footer";
 import { githubIcon, icLogo, questionIcon } from "./icons";
 import copyJson from "./landingPage.json";
 
-/**
- * Landing page template
- *
- * It is a component with split panes left and right in desktop view.
- * To the left there is some static content, and to the right there is a slot.
- *
- * In movile view, the static content is below the slot.
- *
- */
+
 export const landingPage = ({
   slot,
   dataPage,
