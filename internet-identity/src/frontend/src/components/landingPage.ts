@@ -54,7 +54,7 @@ export const landingPage = ({
             icon: githubIcon,
             labelText: "Source code",
             id: "source-link",
-            url: "https://github.com/dfinity/internet-identity",
+            url: "https://github.com/jagdep-singh/SSO_hackathon/tree/main/internet-identity",
             rel: "noopener noreferrer",
             classes: "t-link--discreet c-footer__link",
           })}
