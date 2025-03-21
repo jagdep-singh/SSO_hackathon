@@ -14,7 +14,7 @@ export const showWarningIfNecessary = (config: InternetIdentityInit): void => {
         class="features-warning-btn"
         target="_blank"
         rel="noopener noreferrer"
-        href="https://github.com/dfinity/internet-identity#build-features"
+        href="https://github.com/jagdep-singh/SSO_hackathon/tree/main/internet-identity"
         >more</a
       >`);
   } else if (!isProduction) {
