@@ -25,9 +25,7 @@ export const landingPage = ({
 
   return html`<main class="c-landingPage" data-page="${dataPage}">
     <div class="c-landingPage__container">
-      <div class="c-landingPage__logo">
-        <div class="c-logo">${icLogo}</div>
-      </div>
+      
       <section class="c-landingPage__right" aria-label="Marketing Copy">
         <div class="c-landingPage__right__content">
           <div class="c-landingPage__right__content--full-width">${slot}</div>
@@ -46,7 +44,7 @@ export const landingPage = ({
             icon: questionIcon,
             labelText: "Support",
             id: "support-link",
-            url: "https://internetidentity.zendesk.com/hc/en-us",
+            url: "thecodehive.vercel.app",
             rel: "noopener noreferrer",
             classes: "t-link--discreet c-footer__link",
           })}
